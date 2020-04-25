@@ -1,0 +1,17 @@
+[mysql]
+    url = "root:1234@(192.168.1.105:3306)/mymovie?charset=utf8&parseTime=true&loc=Asia%2FShanghai"
+
+[aria2]
+  uri = "http://192.168.1.105:6800/jsonrpc"
+  token = "123456"
+  timeout = 1
+  prefix = "/root"
+
+[minio]
+  endpoint= "192.168.1.105:8000"
+  accessKeyID= "minio"
+  secretAccessKey= "minio123"
+  useSSL= false
+  bucketName= "micro-movie"
+  location= "cn-north-1"
+  workerCount= 3
